@@ -14,7 +14,6 @@ midpointAB = [(a[0] + b[0])/2, (a[1] + b[1])/2]
 midpointBC = [(b[0] + c[0])/2, (b[1] + c[1])/2]
 
 #Slope = Rise/Run
-
 slopeCnum_midAB = midpointAB[1]-c[1] #Rise from C to midpoint of AB
 slopeCden_midAB = midpointAB[0]-c[0] #Run from C to midpoint of AB
 slopeAnum_midBC = midpointBC[1]-a[1] #Rise from A to midpoint of BC
@@ -39,8 +38,8 @@ print("The midpoint of points BC lie on: " + str(midpointBC))
 
 print()
 
-print(sympy.simplify(eqCmidAB))
-print(sympy.simplify(eqAmidBC))
+print("Equation 1: " + str(sympy.simplify(eqCmidAB)))
+print("Equation 2: " + str(sympy.simplify(eqAmidBC)))
 
 print()
 
