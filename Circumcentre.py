@@ -32,7 +32,7 @@ print ("The coordinates for Point C are: " + str(f))
 print("The midpoint of points AB lie on: " + str(g))
 print("The midpoint of points BC lie on: " + str(h))
 
-print(sympy.simplify(eqPBofAB))
-print(sympy.simplify(eqPBofBC))
+print("Equation 1: " + str(sympy.simplify(eqPBofAB)))
+print("Equation 2: " + str(sympy.simplify(eqPBofBC)))
 
 print ("The coordinates for the triangle's circumcentre is: " + str(sympy.linsolve([eqPBofAB, eqPBofBC], (x, y))))
