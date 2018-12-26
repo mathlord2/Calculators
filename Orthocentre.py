@@ -1,4 +1,4 @@
-#Created by mathlord2
+#Created by @mathlord2
 import sympy
 
 x, y = sympy.symbols("x y")
